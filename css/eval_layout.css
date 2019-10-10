@@ -1,9 +1,14 @@
+body{
+    font-family: "Arial Black";
+}
+
 img{
     width: 100%;
 }
 
 .inner{
     width: 100%;
+    float: bottom;
 }
 
 .txtcenter{
@@ -11,7 +16,57 @@ img{
     text-align: center;
 }
 
+h2{
+    display: none;
+}
+h2.telephone{
+    display: block;
+}
 @media (min-width: 768px) {
+    h2.telephone{
+        display: none;
+    }
+    h2.tablette{
+        display: block;
+    }
+    .inner{
+        text-align: center;
+        width: 100%;
+    }
+    img{
+        width: 49%;
+        display:inline-block;
+    }
+}
 
-    
+@media (min-width: 971px) {
+    h2.tablette{
+        display: none;
+    }
+    h2.desktop{
+        display: block;
+    }
+
+    img{
+        margin:1%;
+        width: 41%;
+        display:inline-block;
+    }
+
+}
+
+@media (min-width: 1369px) {
+    h2.desktop{
+        display: none;
+    }
+    h2.desktopG{
+        display: block;
+    }
+
+    img{
+        margin:1%;
+        width:22%;
+        display:inline-block;
+    }
+
 }
