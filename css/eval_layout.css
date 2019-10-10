@@ -75,6 +75,7 @@ h2.telephone{
     img{
         width:22%;
         display:inline-block;
+        margin: 0.3%;
     }
 
 }
