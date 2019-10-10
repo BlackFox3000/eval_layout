@@ -39,7 +39,7 @@ h2.telephone {
         width: 100%;
     }
 
-    img {
+    .img {
         width: 46%;
         display: inline-block;
         margin: 1%;
@@ -65,7 +65,7 @@ h2.telephone {
         margin-top: 0%;
     }
 
-    img {
+    .img {
         width: 47%;
         display: inline-block;
     }
@@ -81,7 +81,7 @@ h2.telephone {
         display: block;
     }
 
-    img {
+    .img {
         width: 22%;
         display: inline-block;
         margin: 0.3%;
