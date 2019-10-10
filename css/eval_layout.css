@@ -4,6 +4,11 @@ body{
 
 img{
     width: 100%;
+    margin: 1%;
+}
+
+img{
+    margin-top: 20px;
 }
 
 .inner{
@@ -34,7 +39,7 @@ h2.telephone{
         width: 100%;
     }
     img{
-        width: 49%;
+        width: 46%;
         display:inline-block;
     }
 }
@@ -46,10 +51,12 @@ h2.telephone{
     h2.desktop{
         display: block;
     }
-
+    .merge{
+        margin:5%;
+        margin-top: 0%;
+    }
     img{
-        margin:1%;
-        width: 41%;
+        width: 47%;
         display:inline-block;
     }
 
@@ -64,7 +71,6 @@ h2.telephone{
     }
 
     img{
-        margin:1%;
         width:22%;
         display:inline-block;
     }
