@@ -4,11 +4,7 @@ body{
 
 img{
     width: 100%;
-    margin: 1%;
-}
-
-img{
-    margin-top: 20px;
+    margin: 0%;
 }
 
 .inner{
@@ -27,6 +23,7 @@ h2{
 h2.telephone{
     display: block;
 }
+
 @media (min-width: 768px) {
     h2.telephone{
         display: none;
@@ -41,7 +38,12 @@ h2.telephone{
     img{
         width: 46%;
         display:inline-block;
+        margin: 1%;
     }
+    #mer, #lac{
+        margin-top: 20px;
+    }
+
 }
 
 @media (min-width: 971px) {
@@ -52,7 +54,7 @@ h2.telephone{
         display: block;
     }
     .merge{
-        margin:5%;
+        margin:10%;
         margin-top: 0%;
     }
     img{
